@@ -1,0 +1,101 @@
+.ui-widget {
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.rt-loading-image {
+    background: url('../../../local/refinedservices/images/ajax-loader.gif') no-repeat 50% 50%;
+    min-width: 26px;
+    min-height: 26px;
+    display: inline-block;
+}
+
+#connect_service_account_button, #reports_service_account_button {
+    display: none;
+}
+
+.section .activity.modtype_connect .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_connectmeeting .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_connectslide .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_connectquiz .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_rtrecording .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_rtvideo .mod-indent-outer {
+    /*display: block;*/
+    width: 100%;
+}
+
+.section .activity.modtype_rtvideo .contentwithoutlink {
+    display: inline !important;
+}
+
+
+.section .activity.modtype_rtrecording .contentwithoutlink {
+    display: inline !important;
+}
+.section .activity.modtype_connect .contentwithoutlink {
+    display: inline !important;
+}
+
+.section .activity.modtype_connectmeeting .contentwithoutlink {
+    display: inline !important;
+}
+
+.section .activity.modtype_connectslide .contentwithoutlink {
+    display: inline !important;
+}
+
+.section .activity.modtype_connectquiz .contentwithoutlink {
+    display: inline !important;
+}
+
+#login input#username, #login input#password {
+    min-width: 12em;
+}
+#loginbtn{
+    display: block;
+    margin-left: 0;
+}
+
+input#id_firstname, input#id_lastname, input#id_city, input#id_department, input#id_address, input#id_institution {
+	/*text-transform: capitalize;*/
+        /*text-transform: none;*/
+}
+input#id_postcode {
+	/*text-transform: uppercase;*/
+}
+
+input#id_profilevalue {
+	width: 680px;
+}
+
+.coursebox>.info>.coursename a {
+    background-image: url('') !important;
+}
+
+.coursebox .enrolmenticons {
+    display: none !important;
+}
+
+.coursebox>.info>.coursename a {
+    border-style: hidden !important;
+}
