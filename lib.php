@@ -11,6 +11,7 @@ function local_refinedservices_extend_navigation( global_navigation $nav ) {
 	global $PAGE, $CFG;
 
 	if ( ! $PAGE->requires->is_head_done() ) {
+		$PAGE->requires->jquery();
 		$PAGE->requires->jquery_plugin( 'refined-ui-css', 'local_refinedservices' );
 		$PAGE->requires->js_init_code( 'window.wwwroot = "' . $CFG->wwwroot . '";' );
 
