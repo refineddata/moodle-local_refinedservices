@@ -1,11 +1,8 @@
 Installing your Connect2Moodle plugin!:
 ======================================
 
-    1. Download Connect2Moodle plugin package:
-    http://www.refineddata.com/connect-2-moodle/ and unzip it into the root Moodle directory.
-
-    2. Run plugins upgrade from Moodle (as administrator) or from the server:
-    php admin/cli/upgrade.php
+    1. Install moodle-local_refinedservices plugin: https://github.com/refineddata/moodle-local_refinedservices
+    2. Install moodle-local_connect plugin: https://github.com/refineddata/moodle-local_connect
 
 Setting up Refined Services:
 ============================
