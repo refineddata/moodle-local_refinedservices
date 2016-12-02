@@ -1,6 +1,8 @@
 Connect-2-Moodle
 ================
 
+The world's most flexible, live virtual classroom solution (Adobe® Connect™) meets the world's most popular LMS (Moodle®) in a seamless integration from Refined Data Solutions!
+
 With the Connect-2-Moodle plugin, users can enter Adobe Connect meetings, launch Presenter and Captivate presentations and watch event recordings with a single click from inside of Moodle.
 
 Connect-2-Moodle provides a Single Sign On (SSO) environment in which information passes effortlessly in both directions between the two platforms so users cannot tell where Moodle ends and Adobe Connect begins. 
@@ -39,6 +41,6 @@ It is essential that you follow the instructions below on your LMS to ensure all
   3. Click on "Sync Connect Activities with Adobe Connect" and wait for the update to stop running.
 
 For more information and a User Manual please visit our support site:
-http://support.refineddata.com/hc/en-us/categories/200134280-Refined-Training
+http://support.refineddata.com/hc/en-us/articles/203481340-Connect-2-Moodle-Plugin-by-Refined-Training
 
 **Note: these plugins require Refined Services subscription. Please contact Refined Data for more information and pricing: http://www.refineddata.com/contact/**
