@@ -7,6 +7,8 @@ With the Connect-2-Moodle plugin, users can enter Adobe Connect meetings, launch
 
 Connect-2-Moodle provides a Single Sign On (SSO) environment in which information passes effortlessly in both directions between the two platforms so users cannot tell where Moodle ends and Adobe Connect begins. 
 
+Read more: http://www.refineddata.com/connect-2-moodle/
+
 Installing your Connect2Moodle plugin:
 ======================================
 
@@ -40,7 +42,7 @@ It is essential that you follow the instructions below on your LMS to ensure all
   2. Click on "Sync Courses with Adobe Connect" and wait for the update to stop running.
   3. Click on "Sync Connect Activities with Adobe Connect" and wait for the update to stop running.
 
-For more information and a User Manual please visit our support site:
+For a User Manual please visit our support site:
 http://support.refineddata.com/hc/en-us/articles/203481340-Connect-2-Moodle-Plugin-by-Refined-Training
 
 **Note: these plugins require Refined Services subscription. Please contact Refined Data for more information and pricing: http://www.refineddata.com/contact/**
