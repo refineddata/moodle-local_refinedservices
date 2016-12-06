@@ -14,17 +14,17 @@ Installing your Connect2Moodle plugin:
 
 Please install plugins in following order:
 
-1. Install moodle-local_refinedservices plugin: [local_refinedservices](https://github.com/refineddata/moodle-local_refinedservices)
-2. Install moodle-local_connect plugin: [local_connect](https://github.com/refineddata/moodle-local_connect)
-3. Install moodle-mod_connectmeeting plugin: [mod_connectmeeting](https://github.com/refineddata/moodle-mod_connectmeeting)
-4. Install moodle-mod_connectquiz plugin: [mod_connectquiz](https://github.com/refineddata/moodle-mod_connectquiz)
-5. Install moodle-mod_connectslide plugin: [mod_connectslide](https://github.com/refineddata/moodle-mod_connectslide)
-6. Install moodle-mod_rtrecording plugin: [mod_rtrecording](https://github.com/refineddata/moodle-mod_rtrecording)
-7. Install moodle-mod_rtvideo plugin: [mod_rtvideo](https://github.com/refineddata/moodle-mod_rtvideo)
-8. Install moodle-filter_connect plugin: [filter_connect](https://github.com/refineddata/moodle-filter_connect)
-9. Install moodle-auth_connect plugin: [auth_connect](https://github.com/refineddata/moodle-auth_connect)
-10. Install moodle-block_refinedtools plugin: [block_refinedtools](https://github.com/refineddata/moodle-block_refinedtools)
-11. Install moodle-local_reminders plugin: [local_reminders](https://github.com/refineddata/moodle-local_reminders)
+1. Install moodle-local_refinedservices plugin: [local_refinedservices](https://github.com/refineddata/moodle-local_refinedservices/archive/master.zip)
+2. Install moodle-local_connect plugin: [local_connect](https://github.com/refineddata/moodle-local_connect/archive/master.zip)
+3. Install moodle-mod_connectmeeting plugin: [mod_connectmeeting](https://github.com/refineddata/moodle-mod_connectmeeting/archive/master.zip)
+4. Install moodle-mod_connectquiz plugin: [mod_connectquiz](https://github.com/refineddata/moodle-mod_connectquiz/archive/master.zip)
+5. Install moodle-mod_connectslide plugin: [mod_connectslide](https://github.com/refineddata/moodle-mod_connectslide/archive/master.zip)
+6. Install moodle-mod_rtrecording plugin: [mod_rtrecording](https://github.com/refineddata/moodle-mod_rtrecording/archive/master.zip)
+7. Install moodle-mod_rtvideo plugin: [mod_rtvideo](https://github.com/refineddata/moodle-mod_rtvideo/archive/master.zip)
+8. Install moodle-filter_connect plugin: [filter_connect](https://github.com/refineddata/moodle-filter_connect/archive/master.zip)
+9. Install moodle-auth_connect plugin: [auth_connect](https://github.com/refineddata/moodle-auth_connect/archive/master.zip)
+10. Install moodle-block_refinedtools plugin: [block_refinedtools](https://github.com/refineddata/moodle-block_refinedtools/archive/master.zip)
+11. Install moodle-local_reminders plugin: [local_reminders](https://github.com/refineddata/moodle-local_reminders/archive/master.zip)
 
 Setting up Refined Services:
 ============================
