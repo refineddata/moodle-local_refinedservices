@@ -60,3 +60,6 @@ $string['cachedef_reportcall'] = 'Cache of report calls to refined services';
 $string['connect_service_credentials'] = 'Adobe Connect Server Information';
 
 $string['refinedservices_disable_cache'] = 'Disable caching of calls to RS';
+
+//Capabilities
+$string['refinedservices:directacaccess'] = 'Direct AC access';
