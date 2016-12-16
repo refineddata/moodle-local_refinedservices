@@ -697,7 +697,7 @@ class ServiceClient {
         }
 
         if( $this->type == 'connect' && ( preg_match('/^RS\d{3}/', $data->status) || preg_match('/^AC\d{3}/', $data->status)) && (!preg_match( '/^cli/', php_sapi_name() )) && !$noredirect ) {
-            if( is_siteadmin() && $data->error == 'no-auth' && $data->status != 'AC002' ){
+            if( (is_siteadmin() || has_capability('local/refinedservices:directacaccess', \context_system::instance()) )&& $data->error == 'no-auth' && $data->status != 'AC002' ){
             	//there is an account, but it couldn't connect, lets ask for there info
             	$redirecturl = "$CFG->wwwroot/local/refinedservices/connect_login_form.php";
             	$redirectdelay = 5;
