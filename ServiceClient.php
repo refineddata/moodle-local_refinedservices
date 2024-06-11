@@ -137,6 +137,12 @@ class ServiceClient {
 		curl_setopt( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
 		curl_setopt( $ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/json' ) );
 		//curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+
+        global $CFG;
+        if($CFG->refinedservices_ssl_cert_path) {
+            curl_setopt( $ch, CURLOPT_CAINFO, $CFG->refinedservices_ssl_cert_path);
+        }
+
 		$this->curl = $ch;
 	}
 
