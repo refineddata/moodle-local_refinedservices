@@ -18,6 +18,7 @@ class ServiceClient {
 	private   $cookie;
 	private   $type;
 	private   $is_authorized;
+    private   $role;
 
 	/**
 	 * Constructor for ServiceClient
