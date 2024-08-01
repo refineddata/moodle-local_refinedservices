@@ -140,7 +140,7 @@ class ServiceClient {
 		//curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
 
         global $CFG;
-        if($CFG->refinedservices_ssl_cert_path) {
+        if(isset($CFG->refinedservices_ssl_cert_path) && $CFG->refinedservices_ssl_cert_path) {
             curl_setopt( $ch, CURLOPT_CAINFO, $CFG->refinedservices_ssl_cert_path);
         }
 
