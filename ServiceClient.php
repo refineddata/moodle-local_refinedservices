@@ -723,7 +723,7 @@ class ServiceClient {
 
             //if ( $CFG->debug >= 15 ) {
                 if (!$PAGE->requires->is_head_done()) {
-                    if (defined('AJAX_SCRIPT') && AJAX_SCRIPT) {
+                    if ((defined('AJAX_SCRIPT') && AJAX_SCRIPT) || (defined('WS_SERVER') && WS_SERVER)) {
                         $response = new \stdClass();
                         if( (is_siteadmin() || has_capability('local/refinedservices:directacaccess', \context_system::instance()) ) && $data->error == 'no-auth' && $data->status != 'AC002' ){
                             $response->error = "Please add your Adobe Connect credentials here: <a href='$redirecturl'>$redirecturl</a>";
